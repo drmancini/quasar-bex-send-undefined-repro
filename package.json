@@ -1,0 +1,17 @@
+{
+  "name": "quasar-bex-send-undefined-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: BexBridge.send() resolves undefined instead of the responder's return value",
+  "scripts": {
+    "test": "vitest run",
+    "repro": "vitest run"
+  },
+  "dependencies": {
+    "@quasar/app-vite": "3.7.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.0"
+  }
+}
